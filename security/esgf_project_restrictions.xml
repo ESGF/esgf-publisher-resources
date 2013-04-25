@@ -22,6 +22,9 @@
 			<esgf:datasets pattern="obs4MIPs.IPSL.CALIOP.*"/>
 			<esgf:datasets pattern="obs4MIPs.LOA_IPSL.PARASOL.*"/>
 		</esgf:index_node>
+		<esgf:index_node hostname="esgf-index1.ceda.ac.uk">
+			<esgf:datasets pattern="obs4MIPs.UOE.*"/>
+		</esgf:index_node>
 		<esgf:index_node hostname="esg.ccs.ornl.gov">
 		</esgf:index_node>
 	</esgf:project>
