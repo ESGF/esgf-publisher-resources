@@ -2,9 +2,9 @@
 <esgf:schema xmlns:esgf="http://www.esgf.org/#" version="0.2">
     
     	<!-- DRS facets -->
-    	<esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset">
-    		<esgf:value>CMIP5</esgf:value>
-    	</esgf:field>
+    <esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset">
+    	<esgf:value>CMIP5</esgf:value>
+    </esgf:field>
 	<esgf:field name="model" minOccurs="1" maxOccurs="1" recordType="Dataset" >
 		<esgf:value>ACCESS1.0</esgf:value>
 		<esgf:value>ACCESS1.3</esgf:value>
