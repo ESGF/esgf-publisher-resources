@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <esgf:schema xmlns:esgf="http://www.esgf.org/#" version="0.2">
     
-    <!-- DRS facets -->
+	<!-- CMIP5 search facets -->
 	<esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset">
 		<esgf:value>CMIP5</esgf:value>
 	</esgf:field>
