@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <esgf:schema xmlns:esgf="http://www.esgf.org/#" version="0.2">
     
-    	<!-- DRS facets -->
-    	<esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset">
-    		<esgf:value>CMIP5</esgf:value>
-    	</esgf:field>
+    <!-- DRS facets -->
+    <esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset">
+    	<esgf:value>CMIP5</esgf:value>
+    </esgf:field>
 	<esgf:field name="model" minOccurs="1" maxOccurs="1" recordType="Dataset" >
 		<esgf:value>ACCESS1.0</esgf:value>
 		<esgf:value>ACCESS1.3</esgf:value>
@@ -171,6 +171,220 @@
 		<esgf:value>sstClimSulfate</esgf:value>
 		<esgf:value>volcIn2010</esgf:value>
 	</esgf:field>
+	<esgf:field name="experiment_family" minOccurs="0" maxOccurs="1" recordType="Dataset">
+		<esgf:value>All</esgf:value>
+		<esgf:value>Atmos-only</esgf:value>
+		<esgf:value>Control</esgf:value>
+		<esgf:value>Decadal</esgf:value>
+		<esgf:value>ESM</esgf:value>
+		<esgf:value>Historical</esgf:value>
+		<esgf:value>Idealized</esgf:value>
+		<esgf:value>Paleo</esgf:value>
+		<esgf:value>RCP</esgf:value>
+	</esgf:field>
+	<esgf:field name="ensemble" minOccurs="1" maxOccurs="1" recordType="Dataset">
+		<esgf:value>r0i0p0</esgf:value>
+		<esgf:value>r0i0p1</esgf:value>
+		<esgf:value>r0i0p141</esgf:value>
+		<esgf:value>r0i0p142</esgf:value>
+		<esgf:value>r0i0p150</esgf:value>
+		<esgf:value>r0i0p151</esgf:value>
+		<esgf:value>r0i0p2</esgf:value>
+		<esgf:value>r0i0p3</esgf:value>
+		<esgf:value>r0i0p4</esgf:value>
+		<esgf:value>r0i0p5</esgf:value>
+		<esgf:value>r0i0p6</esgf:value>
+		<esgf:value>r10i1p1</esgf:value>
+		<esgf:value>r10i2p1</esgf:value>
+		<esgf:value>r10i3p1</esgf:value>
+		<esgf:value>r11i1p1</esgf:value>
+		<esgf:value>r12i1p1</esgf:value>
+		<esgf:value>r13i1p1</esgf:value>
+		<esgf:value>r14i1p1</esgf:value>
+		<esgf:value>r15i1p1</esgf:value>
+		<esgf:value>r16i1p1</esgf:value>
+		<esgf:value>r17i1p1</esgf:value>
+		<esgf:value>r18i1p1</esgf:value>
+		<esgf:value>r19i1p1</esgf:value>
+		<esgf:value>r1i1p1</esgf:value>
+		<esgf:value>r1i1p10</esgf:value>
+		<esgf:value>r1i1p102</esgf:value>
+		<esgf:value>r1i1p103</esgf:value>
+		<esgf:value>r1i1p104</esgf:value>
+		<esgf:value>r1i1p105</esgf:value>
+		<esgf:value>r1i1p107</esgf:value>
+		<esgf:value>r1i1p108</esgf:value>
+		<esgf:value>r1i1p109</esgf:value>
+		<esgf:value>r1i1p11</esgf:value>
+		<esgf:value>r1i1p114</esgf:value>
+		<esgf:value>r1i1p12</esgf:value>
+		<esgf:value>r1i1p121</esgf:value>
+		<esgf:value>r1i1p122</esgf:value>
+		<esgf:value>r1i1p1221</esgf:value>
+		<esgf:value>r1i1p123</esgf:value>
+		<esgf:value>r1i1p124</esgf:value>
+		<esgf:value>r1i1p125</esgf:value>
+		<esgf:value>r1i1p126</esgf:value>
+		<esgf:value>r1i1p127</esgf:value>
+		<esgf:value>r1i1p128</esgf:value>
+		<esgf:value>r1i1p13</esgf:value>
+		<esgf:value>r1i1p14</esgf:value>
+		<esgf:value>r1i1p141</esgf:value>
+		<esgf:value>r1i1p142</esgf:value>
+		<esgf:value>r1i1p15</esgf:value>
+		<esgf:value>r1i1p150</esgf:value>
+		<esgf:value>r1i1p151</esgf:value>
+		<esgf:value>r1i1p16</esgf:value>
+		<esgf:value>r1i1p17</esgf:value>
+		<esgf:value>r1i1p2</esgf:value>
+		<esgf:value>r1i1p3</esgf:value>
+		<esgf:value>r1i1p3001</esgf:value>
+		<esgf:value>r1i1p302</esgf:value>
+		<esgf:value>r1i1p303</esgf:value>
+		<esgf:value>r1i1p309</esgf:value>
+		<esgf:value>r1i1p310</esgf:value>
+		<esgf:value>r1i1p311</esgf:value>
+		<esgf:value>r1i1p312</esgf:value>
+		<esgf:value>r1i1p313</esgf:value>
+		<esgf:value>r1i1p4</esgf:value>
+		<esgf:value>r1i1p5</esgf:value>
+		<esgf:value>r1i1p6</esgf:value>
+		<esgf:value>r1i1p7</esgf:value>
+		<esgf:value>r1i1p8</esgf:value>
+		<esgf:value>r1i2p1</esgf:value>
+		<esgf:value>r1i2p2</esgf:value>
+		<esgf:value>r1i3p1</esgf:value>
+		<esgf:value>r2-0i1p1</esgf:value>
+		<esgf:value>r20i1p1</esgf:value>
+		<esgf:value>r21i1p1</esgf:value>
+		<esgf:value>r22i1p1</esgf:value>
+		<esgf:value>r23i1p1</esgf:value>
+		<esgf:value>r2i1p1</esgf:value>
+		<esgf:value>r2i1p102</esgf:value>
+		<esgf:value>r2i1p103</esgf:value>
+		<esgf:value>r2i1p104</esgf:value>
+		<esgf:value>r2i1p105</esgf:value>
+		<esgf:value>r2i1p107</esgf:value>
+		<esgf:value>r2i1p108</esgf:value>
+		<esgf:value>r2i1p109</esgf:value>
+		<esgf:value>r2i1p11</esgf:value>
+		<esgf:value>r2i1p114</esgf:value>
+		<esgf:value>r2i1p2</esgf:value>
+		<esgf:value>r2i1p3</esgf:value>
+		<esgf:value>r2i1p3001</esgf:value>
+		<esgf:value>r2i1p302</esgf:value>
+		<esgf:value>r2i1p303</esgf:value>
+		<esgf:value>r2i1p309</esgf:value>
+		<esgf:value>r2i1p310</esgf:value>
+		<esgf:value>r2i1p311</esgf:value>
+		<esgf:value>r2i1p312</esgf:value>
+		<esgf:value>r2i1p313</esgf:value>
+		<esgf:value>r2i1p4</esgf:value>
+		<esgf:value>r2i1p5</esgf:value>
+		<esgf:value>r2i1p6</esgf:value>
+		<esgf:value>r2i2p1</esgf:value>
+		<esgf:value>r2i3p1</esgf:value>
+		<esgf:value>r3i1p1</esgf:value>
+		<esgf:value>r3i1p10</esgf:value>
+		<esgf:value>r3i1p102</esgf:value>
+		<esgf:value>r3i1p103</esgf:value>
+		<esgf:value>r3i1p104</esgf:value>
+		<esgf:value>r3i1p105</esgf:value>
+		<esgf:value>r3i1p107</esgf:value>
+		<esgf:value>r3i1p108</esgf:value>
+		<esgf:value>r3i1p109</esgf:value>
+		<esgf:value>r3i1p114</esgf:value>
+		<esgf:value>r3i1p13</esgf:value>
+		<esgf:value>r3i1p2</esgf:value>
+		<esgf:value>r3i1p3</esgf:value>
+		<esgf:value>r3i1p3001</esgf:value>
+		<esgf:value>r3i1p302</esgf:value>
+		<esgf:value>r3i1p303</esgf:value>
+		<esgf:value>r3i1p309</esgf:value>
+		<esgf:value>r3i1p310</esgf:value>
+		<esgf:value>r3i1p311</esgf:value>
+		<esgf:value>r3i1p312</esgf:value>
+		<esgf:value>r3i1p313</esgf:value>
+		<esgf:value>r3i1p4</esgf:value>
+		<esgf:value>r3i1p5</esgf:value>
+		<esgf:value>r3i1p6</esgf:value>
+		<esgf:value>r3i2p1</esgf:value>
+		<esgf:value>r3i3p1</esgf:value>
+		<esgf:value>r4i1p1</esgf:value>
+		<esgf:value>r4i1p10</esgf:value>
+		<esgf:value>r4i1p102</esgf:value>
+		<esgf:value>r4i1p103</esgf:value>
+		<esgf:value>r4i1p104</esgf:value>
+		<esgf:value>r4i1p105</esgf:value>
+		<esgf:value>r4i1p107</esgf:value>
+		<esgf:value>r4i1p108</esgf:value>
+		<esgf:value>r4i1p109</esgf:value>
+		<esgf:value>r4i1p11</esgf:value>
+		<esgf:value>r4i1p114</esgf:value>
+		<esgf:value>r4i1p14</esgf:value>
+		<esgf:value>r4i1p16</esgf:value>
+		<esgf:value>r4i1p17</esgf:value>
+		<esgf:value>r4i1p2</esgf:value>
+		<esgf:value>r4i1p3</esgf:value>
+		<esgf:value>r4i1p3001</esgf:value>
+		<esgf:value>r4i1p302</esgf:value>
+		<esgf:value>r4i1p303</esgf:value>
+		<esgf:value>r4i1p309</esgf:value>
+		<esgf:value>r4i1p310</esgf:value>
+		<esgf:value>r4i1p311</esgf:value>
+		<esgf:value>r4i1p312</esgf:value>
+		<esgf:value>r4i1p313</esgf:value>
+		<esgf:value>r4i1p4</esgf:value>
+		<esgf:value>r4i1p5</esgf:value>
+		<esgf:value>r4i1p6</esgf:value>
+		<esgf:value>r4i2p1</esgf:value>
+		<esgf:value>r4i3p1</esgf:value>
+		<esgf:value>r5i1p1</esgf:value>
+		<esgf:value>r5i1p102</esgf:value>
+		<esgf:value>r5i1p103</esgf:value>
+		<esgf:value>r5i1p104</esgf:value>
+		<esgf:value>r5i1p105</esgf:value>
+		<esgf:value>r5i1p107</esgf:value>
+		<esgf:value>r5i1p108</esgf:value>
+		<esgf:value>r5i1p109</esgf:value>
+		<esgf:value>r5i1p114</esgf:value>
+		<esgf:value>r5i1p2</esgf:value>
+		<esgf:value>r5i1p3</esgf:value>
+		<esgf:value>r5i1p3001</esgf:value>
+		<esgf:value>r5i1p302</esgf:value>
+		<esgf:value>r5i1p303</esgf:value>
+		<esgf:value>r5i1p309</esgf:value>
+		<esgf:value>r5i1p310</esgf:value>
+		<esgf:value>r5i1p311</esgf:value>
+		<esgf:value>r5i1p312</esgf:value>
+		<esgf:value>r5i1p313</esgf:value>
+		<esgf:value>r5i1p4</esgf:value>
+		<esgf:value>r5i1p5</esgf:value>
+		<esgf:value>r5i1p6</esgf:value>
+		<esgf:value>r5i2p1</esgf:value>
+		<esgf:value>r5i3p1</esgf:value>
+		<esgf:value>r6i1p1</esgf:value>
+		<esgf:value>r6i1p10</esgf:value>
+		<esgf:value>r6i1p11</esgf:value>
+		<esgf:value>r6i1p13</esgf:value>
+		<esgf:value>r6i1p14</esgf:value>
+		<esgf:value>r6i1p16</esgf:value>
+		<esgf:value>r6i1p17</esgf:value>
+		<esgf:value>r6i1p2</esgf:value>
+		<esgf:value>r6i1p3</esgf:value>
+		<esgf:value>r6i2p1</esgf:value>
+		<esgf:value>r6i3p1</esgf:value>
+		<esgf:value>r7i1p1</esgf:value>
+		<esgf:value>r7i2p1</esgf:value>
+		<esgf:value>r7i3p1</esgf:value>
+		<esgf:value>r8i1p1</esgf:value>
+		<esgf:value>r8i2p1</esgf:value>
+		<esgf:value>r8i3p1</esgf:value>
+		<esgf:value>r9-0i1p1</esgf:value>
+		<esgf:value>r9i1p1</esgf:value>
+		<esgf:value>r9i2p1</esgf:value>
+		<esgf:value>r9i3p1</esgf:value>
+	</esgf:field>
 	<esgf:field name="institute" minOccurs="1" maxOccurs="1" recordType="Dataset">
 		<esgf:value>BCC</esgf:value>
 		<esgf:value>BNU</esgf:value>
@@ -217,6 +431,35 @@
 		<esgf:value>ocean</esgf:value>
 		<esgf:value>ocnBgchem</esgf:value>
 		<esgf:value>seaIce</esgf:value>
+	</esgf:field>
+	<esgf:field name="cmor_table" minOccurs="1" maxOccurs="1" recordType="Dataset">
+		<esgf:value>3hr</esgf:value>
+		<esgf:value>3hrExtras</esgf:value>
+		<esgf:value>6hrLev</esgf:value>
+		<esgf:value>6hrPlev</esgf:value>
+		<esgf:value>Aclim</esgf:value>
+		<esgf:value>Amon</esgf:value>
+		<esgf:value>AmonExtras</esgf:value>
+		<esgf:value>LIclim</esgf:value>
+		<esgf:value>LImon</esgf:value>
+		<esgf:value>Lclim</esgf:value>
+		<esgf:value>Lmon</esgf:value>
+		<esgf:value>LmonExtras</esgf:value>
+		<esgf:value>OImon</esgf:value>
+		<esgf:value>Oclim</esgf:value>
+		<esgf:value>Omon</esgf:value>
+		<esgf:value>OmonExtras</esgf:value>
+		<esgf:value>Oyr</esgf:value>
+		<esgf:value>OyrExtras</esgf:value>
+		<esgf:value>aero</esgf:value>
+		<esgf:value>cf3hr</esgf:value>
+		<esgf:value>cfDay</esgf:value>
+		<esgf:value>cfMon</esgf:value>
+		<esgf:value>cfOff</esgf:value>
+		<esgf:value>cfSites</esgf:value>
+		<esgf:value>day</esgf:value>
+		<esgf:value>dayExtras</esgf:value>
+		<esgf:value>fx</esgf:value>
 	</esgf:field>
 	<esgf:field name="time_frequency" minOccurs="1" maxOccurs="1" recordType="Dataset">
 		<esgf:value>3hr</esgf:value>
