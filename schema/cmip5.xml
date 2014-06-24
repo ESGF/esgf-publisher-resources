@@ -171,7 +171,7 @@
 		<esgf:value>sstClimSulfate</esgf:value>
 		<esgf:value>volcIn2010</esgf:value>
 	</esgf:field>
-	<esgf:field name="experiment_family" minOccurs="0" maxOccurs="1" recordType="Dataset">
+	<esgf:field name="experiment_family" minOccurs="0" maxOccurs="unbounded" recordType="Dataset">
 		<esgf:value>All</esgf:value>
 		<esgf:value>Atmos-only</esgf:value>
 		<esgf:value>Control</esgf:value>
