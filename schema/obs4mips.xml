@@ -761,6 +761,8 @@
 		<esgf:value>hurs</esgf:value>
 		<esgf:value>hursClim</esgf:value>
 		<esgf:value>hus</esgf:value>
+		<esgf:value>husStderr</esgf:value>
+                <esgf:value>husNobs</esgf:value>
 		<esgf:value>husClim</esgf:value>
 		<esgf:value>huss</esgf:value>
 		<esgf:value>hussClim</esgf:value>
@@ -1022,6 +1024,8 @@
 		<esgf:value>strocny</esgf:value>
 		<esgf:value>swit</esgf:value>
 		<esgf:value>ta</esgf:value>
+		<esgf:value>taStderr</esgf:value>
+		<esgf:value>taNobs</esgf:value>
 		<esgf:value>ta700</esgf:value>
 		<esgf:value>taClim</esgf:value>
 		<esgf:value>talk</esgf:value>
@@ -1195,6 +1199,8 @@
 		<esgf:value>Air Pressure at Convective Cloud Base</esgf:value>
 		<esgf:value>Air Pressure at Convective Cloud Top</esgf:value>
 		<esgf:value>Air Temperature</esgf:value>
+		<esgf:value>Air Temperature Standard Error</esgf:value>
+		<esgf:value>Air Temperature Number Of Observations</esgf:value>
 		<esgf:value>Altitude of Model Full-Levels</esgf:value>
 		<esgf:value>Altitude of Model Half-Levels</esgf:value>
 		<esgf:value>Ambient Aerosol Absorption Optical Thickness at 550 nm</esgf:value>
@@ -1695,6 +1701,8 @@
 		<esgf:value>Soil Frozen Water Content</esgf:value>
 		<esgf:value>Solid Precipitation</esgf:value>
 		<esgf:value>Specific Humidity</esgf:value>
+                <esgf:value>Specific Humidity Standard Error</esgf:value>
+                <esgf:value>Specific Humidity Number of Observations</esgf:value>
 		<esgf:value>Square of Ocean Mixed Layer Thickness Defined by Sigma T</esgf:value>
 		<esgf:value>Square of Sea Surface Height Above Geoid</esgf:value>
 		<esgf:value>Square of Sea Surface Temperature</esgf:value>
@@ -1936,6 +1944,8 @@
 		<esgf:value>air_pressure_at_convective_cloud_top</esgf:value>
 		<esgf:value>air_pressure_at_sea_level</esgf:value>
 		<esgf:value>air_temperature</esgf:value>
+		<esgf:value>air_temperature_standard_error</esgf:value>
+		<esgf:value>air_temperature_number_of_observations</esgf:value>
 		<esgf:value>ambient_aerosol_extinction_at_550_nm</esgf:value>
 		<esgf:value>ambient_aerosol_extinction_optical_thickness_at_550_nm</esgf:value>
 		<esgf:value>area_fraction</esgf:value>
@@ -2295,6 +2305,8 @@
 		<esgf:value>soil_temperature</esgf:value>
 		<esgf:value>soot_content_of_surface_snow</esgf:value>
 		<esgf:value>specific_humidity</esgf:value>
+                <esgf:value>specific_humidity_standard_error</esgf:value>
+                <esgf:value>specific_humidity_number_of_observations</esgf:value>
 		<esgf:value>square_of_ocean_mixed_layer_thickness_defined_by_sigma_t</esgf:value>
 		<esgf:value>square_of_sea_surface_height_above_geoid</esgf:value>
 		<esgf:value>square_of_sea_surface_temperature</esgf:value>
