@@ -1200,7 +1200,7 @@
 		<esgf:value>Air Pressure at Convective Cloud Top</esgf:value>
 		<esgf:value>Air Temperature</esgf:value>
 		<esgf:value>Air Temperature Standard Error</esgf:value>
-		<esgf:value>Air Temperature Number Of Observations</esgf:value>
+		<esgf:value>Air Temperature Number of Observations</esgf:value>
 		<esgf:value>Altitude of Model Full-Levels</esgf:value>
 		<esgf:value>Altitude of Model Half-Levels</esgf:value>
 		<esgf:value>Ambient Aerosol Absorption Optical Thickness at 550 nm</esgf:value>
