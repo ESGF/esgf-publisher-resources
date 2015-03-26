@@ -8,6 +8,7 @@
 	</esgf:field>
 	<esgf:field name="model" minOccurs="1" maxOccurs="1" recordType="Dataset" >
 		<esgf:value>Obs-AIRS</esgf:value>
+		<esgf:value>Obs-MODIS</esgf:value>
 		<esgf:value>ACCESS1.0</esgf:value>
 		<esgf:value>ACCESS1.3</esgf:value>
 		<esgf:value>BCC-CSM1.1</esgf:value>
@@ -433,6 +434,7 @@
 		<esgf:value>atmos</esgf:value>
 		<esgf:value>land</esgf:value>
 		<esgf:value>landIce</esgf:value>
+		<esgf:value>landIce land</esgf:value>
 		<esgf:value>ocean</esgf:value>
 		<esgf:value>ocnBgchem</esgf:value>
 		<esgf:value>seaIce</esgf:value>
@@ -761,8 +763,6 @@
 		<esgf:value>hurs</esgf:value>
 		<esgf:value>hursClim</esgf:value>
 		<esgf:value>hus</esgf:value>
-		<esgf:value>husStderr</esgf:value>
-                <esgf:value>husNobs</esgf:value>
 		<esgf:value>husClim</esgf:value>
 		<esgf:value>huss</esgf:value>
 		<esgf:value>hussClim</esgf:value>
@@ -1024,8 +1024,6 @@
 		<esgf:value>strocny</esgf:value>
 		<esgf:value>swit</esgf:value>
 		<esgf:value>ta</esgf:value>
-		<esgf:value>taStderr</esgf:value>
-		<esgf:value>taNobs</esgf:value>
 		<esgf:value>ta700</esgf:value>
 		<esgf:value>taClim</esgf:value>
 		<esgf:value>talk</esgf:value>
@@ -1199,8 +1197,6 @@
 		<esgf:value>Air Pressure at Convective Cloud Base</esgf:value>
 		<esgf:value>Air Pressure at Convective Cloud Top</esgf:value>
 		<esgf:value>Air Temperature</esgf:value>
-		<esgf:value>Air Temperature Standard Error</esgf:value>
-		<esgf:value>Air Temperature Number of Observations</esgf:value>
 		<esgf:value>Altitude of Model Full-Levels</esgf:value>
 		<esgf:value>Altitude of Model Half-Levels</esgf:value>
 		<esgf:value>Ambient Aerosol Absorption Optical Thickness at 550 nm</esgf:value>
@@ -1701,8 +1697,6 @@
 		<esgf:value>Soil Frozen Water Content</esgf:value>
 		<esgf:value>Solid Precipitation</esgf:value>
 		<esgf:value>Specific Humidity</esgf:value>
-                <esgf:value>Specific Humidity Standard Error</esgf:value>
-                <esgf:value>Specific Humidity Number of Observations</esgf:value>
 		<esgf:value>Square of Ocean Mixed Layer Thickness Defined by Sigma T</esgf:value>
 		<esgf:value>Square of Sea Surface Height Above Geoid</esgf:value>
 		<esgf:value>Square of Sea Surface Temperature</esgf:value>
@@ -1933,6 +1927,8 @@
 		<esgf:value>pH at Surface</esgf:value>
 		<esgf:value>surface pressure</esgf:value>
 		<esgf:value>wap</esgf:value>
+                <!-- FIXME -->
+                <esgf:value>Total Cloud Cover</esgf:value>
 	</esgf:field>
 	<esgf:field name="variable_units" minOccurs="0" maxOccurs="unbounded" />
 	<esgf:field name="cf_standard_name" minOccurs="0" maxOccurs="unbounded">
@@ -1944,8 +1940,6 @@
 		<esgf:value>air_pressure_at_convective_cloud_top</esgf:value>
 		<esgf:value>air_pressure_at_sea_level</esgf:value>
 		<esgf:value>air_temperature</esgf:value>
-		<esgf:value>air_temperature_standard_error</esgf:value>
-		<esgf:value>air_temperature_number_of_observations</esgf:value>
 		<esgf:value>ambient_aerosol_extinction_at_550_nm</esgf:value>
 		<esgf:value>ambient_aerosol_extinction_optical_thickness_at_550_nm</esgf:value>
 		<esgf:value>area_fraction</esgf:value>
@@ -2305,8 +2299,6 @@
 		<esgf:value>soil_temperature</esgf:value>
 		<esgf:value>soot_content_of_surface_snow</esgf:value>
 		<esgf:value>specific_humidity</esgf:value>
-                <esgf:value>specific_humidity_standard_error</esgf:value>
-                <esgf:value>specific_humidity_number_of_observations</esgf:value>
 		<esgf:value>square_of_ocean_mixed_layer_thickness_defined_by_sigma_t</esgf:value>
 		<esgf:value>square_of_sea_surface_height_above_geoid</esgf:value>
 		<esgf:value>square_of_sea_surface_temperature</esgf:value>
@@ -2567,6 +2559,9 @@
 		<esgf:value>y-component_of_ocean_stress_on_sea_ice</esgf:value>
 		<esgf:value>y-component_of_sea_ice_mass_transport</esgf:value>
 		<esgf:value>y-component_of_sea_ice_transport</esgf:value>
+                <!-- FIXME -->
+                <esgf:value>Snow_Area_Fraction</esgf:value>
+                <esgf:value>Total_Cloud_Cover</esgf:value>
 	</esgf:field>
 	
 	<!-- mandatory fields used for replica and version management -->
