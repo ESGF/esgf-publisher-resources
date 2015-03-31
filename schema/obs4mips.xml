@@ -1927,8 +1927,6 @@
 		<esgf:value>pH at Surface</esgf:value>
 		<esgf:value>surface pressure</esgf:value>
 		<esgf:value>wap</esgf:value>
-                <!-- FIXME -->
-                <esgf:value>Total Cloud Cover</esgf:value>
 	</esgf:field>
 	<esgf:field name="variable_units" minOccurs="0" maxOccurs="unbounded" />
 	<esgf:field name="cf_standard_name" minOccurs="0" maxOccurs="unbounded">
@@ -2559,9 +2557,6 @@
 		<esgf:value>y-component_of_ocean_stress_on_sea_ice</esgf:value>
 		<esgf:value>y-component_of_sea_ice_mass_transport</esgf:value>
 		<esgf:value>y-component_of_sea_ice_transport</esgf:value>
-                <!-- FIXME -->
-                <esgf:value>Snow_Area_Fraction</esgf:value>
-                <esgf:value>Total_Cloud_Cover</esgf:value>
 	</esgf:field>
 	
 	<!-- mandatory fields used for replica and version management -->
