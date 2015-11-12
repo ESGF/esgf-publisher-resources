@@ -483,20 +483,7 @@
 	<esgf:field name="variable_long_name" minOccurs="0" maxOccurs="unbounded" />
 	<esgf:field name="variable_units" minOccurs="0" maxOccurs="unbounded" />
 	<esgf:field name="cf_standard_name" minOccurs="0" maxOccurs="unbounded" />
-	
-	<!-- mandatory fields used for replica and version management -->
-	<esgf:field name="instance_id" minOccurs="1" maxOccurs="1"/>
-	<esgf:field name="master_id" minOccurs="1" maxOccurs="1"/>
-	<esgf:field name="replica" minOccurs="0" maxOccurs="1" type="boolean" default="false" />
-	
+		
 	<esgf:field name="tracking_id" minOccurs="1" maxOccurs="1" type="uuid" recordType="File" />
-	
-	<!-- data_node, index_node are used by ESGF web portal for file retrieval -->
-	<esgf:field name="data_node" minOccurs="1" maxOccurs="1"/>
-	<esgf:field name="index_node" minOccurs="1" maxOccurs="1"/>
-	
-	<!-- fields used by ESGF web portal data cart -->
-	<esgf:field name="number_of_files" minOccurs="1" maxOccurs="1" type="int" minValue="0" recordType="Dataset" />
-	<esgf:field name="number_of_aggregations" minOccurs="1" maxOccurs="1" type="int" minValue="0" recordType="Dataset" />
-	
+		
 </esgf:schema>
