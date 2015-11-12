@@ -2560,4 +2560,10 @@
 
   <esgf:field name="tracking_id" minOccurs="1" maxOccurs="1" type="uuid" recordType="File" />
 
+  <!-- Other Optional fields -->
+
+  <esgf:field name="dataset_id_template_" minOccurs="0" maxOccurs="1" recordType="Dataset" />
+  <esgf:field name="drs_id" minOccurs="0" maxOccurs="1" recordType="Dataset" />
+  <esgf:field name="forcing" minOccurs="0" maxOccurs="1" recordType="Dataset" />
+  
 </esgf:schema>
