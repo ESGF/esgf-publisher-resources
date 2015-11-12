@@ -31,11 +31,17 @@
 
   <!-- "version" field is optional, defaults to 0, if provided it must be an integer -->
   <esgf:field name="version" minOccurs="0" maxOccurs="1" type="int" default="0" />
-  <esgf:field name="instance_id" minOccurs="0" maxOccurs="1" />
+
   <esgf:field name="master_id" minOccurs="0" maxOccurs="1" />
+  <esgf:field name="instance_id" minOccurs="0" maxOccurs="1" />
   <esgf:field name="replica" minOccurs="0" maxOccurs="1" type="boolean" default="false" />
   <esgf:field name="latest" minOccurs="0" maxOccurs="1" type="boolean" default="true" />
 
+  <esgf:field name="checksum" minOccurs="0" maxOccurs="1" recordType="File" />
+  <esgf:field name="checksum_type" minOccurs="0" maxOccurs="1" recordType="File">
+    <esgf:value>MD5</esgf:value>
+    <esgf:value>SHA1</esgf:value>
+  </esgf:field>
 
   <!-- OTHER GENERIC OPTIONAL FIELDS -->
 
@@ -50,6 +56,9 @@
 
   <!-- records may have 0, 1 or more "url" fields, encoded as 3-tuple of the form: 'url|mime type|service name' -->
   <esgf:field name="url" minOccurs="0" maxOccurs="9999" />
+  
+  <!-- data format -->
+  <esgf:field name="format" minOccurs="0" maxOccurs="1" />
 
   <!-- OPTIONAL FIELDS NEEDED FOR FILE DOWNLOAD -->
 
