@@ -48,7 +48,7 @@
   <!-- OTHER GENERIC OPTIONAL FIELDS -->
 
   <!-- optional longer description -->
-  <esgf:field name="description" minOccurs="0" maxOccurs="1" />
+  <esgf:field name="description" minOccurs="0" maxOccurs="9999" />
 
   <!-- "timestamp" is optional, if provided it must be in the format: yyyy-MM-dd'T'HH:mm:ss'Z' -->
   <esgf:field name="timestamp" minOccurs="0" maxOccurs="1" type="date" />
