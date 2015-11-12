@@ -26,6 +26,8 @@
   <!-- data_node, index_node are used by ESGF web portal for file retrieval -->
   <esgf:field name="data_node" minOccurs="1" maxOccurs="1" />
   <esgf:field name="index_node" minOccurs="1" maxOccurs="1" />
+  <!-- shard=localhost:8982 is optionally used to publish to the local shard -->
+  <esgf:field name="shard" minOccurs="0" maxOccurs="1" />
 
   <!-- OPTIONAL FIELDS FOR VERSIONING AND REPLICATION -->
 
