@@ -18,11 +18,15 @@
     <esgf:value>Aggregation</esgf:value>
   </esgf:field>
   
-    <!-- "project" is mandatory for Datasets -->
-    <esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset" />
+  <!-- "project" is mandatory for Datasets -->
+  <esgf:field name="project" minOccurs="1" maxOccurs="1" recordType="Dataset" />
   
   <!-- "dataset_id" field is mandatory for Files, Aggregations -->
   <esgf:field name="dataset_id" minOccurs="1" maxOccurs="1" recordType="File, Aggregation" />
+  
+  <!-- data_node, index_node are used by ESGF web portal for file retrieval -->
+  <esgf:field name="data_node" minOccurs="1" maxOccurs="1"/>
+  <esgf:field name="index_node" minOccurs="1" maxOccurs="1"/>
   
 <!-- OPTIONAL FIELDS FOR VERSIONING AND REPLICATION -->
 
@@ -50,11 +54,7 @@
   <esgf:field name="url" minOccurs="0" maxOccurs="9999"/>
   
  <!-- OPTIONAL FIELDS NEEDED FOR FILE DOWNLOAD -->
-    
-    <!-- data_node, index_node are used by ESGF web portal for file retrieval -->
-    <esgf:field name="data_node" minOccurs="0" maxOccurs="1"/>
-    <esgf:field name="index_node" minOccurs="0" maxOccurs="1"/>
- 
+     
   <!-- "size" field is optional, if provided it must be a long -->
   <esgf:field name="size" minOccurs="0" maxOccurs="1" type="long" minValue="0" />
   
