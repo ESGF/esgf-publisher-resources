@@ -42,7 +42,7 @@
   <esgf:field name="checksum" minOccurs="0" maxOccurs="1" recordType="File" />
   <esgf:field name="checksum_type" minOccurs="0" maxOccurs="1" recordType="File">
     <esgf:value>MD5</esgf:value>
-    <esgf:value>SHA1</esgf:value>
+    <esgf:value>SHA256</esgf:value>
   </esgf:field>
 
   <!-- OTHER GENERIC OPTIONAL FIELDS -->
